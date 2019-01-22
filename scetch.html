@@ -57,7 +57,7 @@
 
 		 	<!-- Scroll[1] Bio: my story in 2 minutes (know more on Interactive Bio) + key phrases for SEO + photo -->
 		 	<h2> Short Bio </h2>
-		 		<h3> Mylife in 2-minutes </h3>
+		 		<h3> Mylife in 2-minutes </h3>  <!-- SEO keywords -->
 				<p> To be completed ..</p>
 				
 		 <!-- Scroll[3] Want to know more? -->
@@ -86,17 +86,17 @@
 					
 				</ul>
 			 <h4> Write me a message (contact form)</h4>
-			<form action="alert('Hello World!')" target="_self" method="post">
+			<form action="alert('Hello World!')" target="_self" method="post" autocomplete="off" novalidate>
 				Title:<br>
-				<input type="text" name="title" value=""><br>
-				Message:<br>
-				<textarea type="text" name="message" rows="10" cols="30"></textarea><br>
+				<input type="text" name="title" value="" autocomplete="on"placeholder="Enter the title of your message"><br>
 				Email:<br>
-				<input type="email" name="email" value=""><br>
+				<input type="email" name="email" value="" placeholder="Optional"><br>
 				<br>
-				<input type="submit" value="Submit">
+				Message:<br>
+				<textarea type="text" name="message" rows="10" cols="30" placeholder="Let's record somthing together"></textarea><br>
+				<input type="image" src="img_submit.gif" alt="Submit" width="48" height="48">
 			</form>
-				<h6> Footer </h6>
+				<h6> Footer </h6> <!-- SEO keywords in a statement-->
 				<h6>copyright</h6>
 				<h6>sitemap</h6>
 				<!-- Studio Location
