@@ -10,3 +10,5 @@ let me know when this is live
 short bio
 picture
 mic
+
+http://www.bedaya.qa
