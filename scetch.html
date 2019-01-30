@@ -12,96 +12,139 @@
 	</head>
 
 	<body>
-		<h1> Omar Shafie's Website</h1>
-		<!-- (signiture motion Calligraphy LOGO at left ) -->
-		<a href="index.html">
-			<img src="/images/logo.jpg" alt="OmarShafie.com" title="OmarShafie.com" class="logo" style="width:500px;height:500px;border:0;">
-		</a>
-		<!-- Navigation, Contact on the right -->
-		<table style="width:100%">
-			<tr>
-				<th>Home</th> 
-				<th>Voice Over</th> 
-				<th>About</th>
-				<th>Blog</th>
-				<th><a href="#Contacts">Contacts</a></th>
-			</tr>
-		</table>
-		<!-- Main: theme(Calligraphy - Data Visualize - interactive/motion) - ] -->
-		<!-- Photo: Circle with instgram story clickable-->
-				<h4> One Minute Of All </h4> <!-- Crazy fast One man show -->
-			<!-- intro -->
-			<p id="intro"> <strong>Omar Shafie </strong> an aspiring data scientist, passionate about <a ref="">data visualization!</a> Here, I am a professional <a ref="">Voice Over</a> artist. Both are my tools <em>to visualize thoughts & tell stories <em>.</p>
 		
-		<!-- Scroll[1] Main Website purpose: What is this website is for? -->
-		<h2> Voice Over Works</h2>
-			<h3> Ear loves first </h3> <!-- Calligraphy -->
-				<h4> Interactive Portofolio </h4> <!-- 9 styles slower 1 minute each with typography + thumbnail completes each other + head lines are SEO -->
-				<ul>
-					<li>Documentry</li>
-					<li>Commercial</li>
-					<li>Poetic</li>
-					<li>Narrative</li>
-				</ul>
+		<a href="index.html">
+			<img src="/images/logo.jpg" alt="OmarShafie.com Logo" title="OmarShafie.com" class="logo" 
+			     style="width:500px;height:500px;border:0;">
+		</a>
+		
+		<nav>
+			<a href="#Home">     Home       </a> |
+			<a href="#VO">       Voice Over </a> |
+			<a href="#About">    About      </a> |
+			<a href="#Blog">     Blog       </a> |
+			<a href="#Contacts"> Contacts   </a>
+		</nav>
+		
+		<section>	
+			<!-- Photo: Circle with instgram story clickable -->
+			<!-- One Minute Of AllCrazy fast One man show -->
+			
+			<article>
+				<p id="Home"><strong>Omar Shafie </strong> an aspiring data scientist, passionate about 
+					<a ref="">data visualization!</a> Here, I am a professional <a ref="">Voice Over</a> artist. 
+					Both are my tools <em>to visualize thoughts & tell stories <em>.</p>
+			</article>
+					
+		</section>
+			
+		<!-- Scroll[1]-->
+		<main>
+			<section>
+				<header>
+					<h2 id="VO"> Voice Over Works</h2> <!--Interactive Portofolio -->
+					<h3> Ear loves first </h3> <!-- Calligraphy --> 
+				</header>
+				
+				<!-- 9 styles slower 1 minute each with typography + thumbnail completes each other + head lines are SEO -->
+				<table>
+					<tr>
+						<td>Documentry</td>
+						<td>Commercial</td>
+						<td>Poetic</td>
+					</tr>
+					<tr>
+						<td>Documentry</td>
+						<td>Commercial</td>
+						<td>Poetic</td>
+					</tr>
+					<tr>
+						<td>Documentry</td>
+						<td>Commercial</td>
+						<td>Poetic</td>
+					</tr>
+				</table>
+				
 				<h4> Previous clients </h4> <!-- Logos or accounts -->
-				<h4> Testimonials </h4> <!-- Tweets or comments or recommendations -->
+				
+				<article>
+					<h4> Testimonials </h4> <!-- Tweets or comments or recommendations -->
+					
+				</article>
 				
 				<h4> Let's Record something Cool together </h4> <!-- Call to action -->
 				<button type="button" onclick="alert('Hello World!')"> Let't Connect </button> <!-- Jumps to Contact -->
-
-				
+			</section>
+			
 			<!-- Scroll[2] Bio: my story in 2 minutes (know more on Interactive Bio) + key phrases for SEO + photo -->
+			<section>
+				<h2 id="About"> Short Bio </h2>
+				<article>
+					<h3> Mylife in 2-minutes </h3>  <!-- SEO keywords -->
+					<p> To be completed ..</p>
+					<p> <bdi><dfn> التعليق الصوتي</dfn> هو <bdi></p>
+				</article>
 
-		 	<h2> Short Bio </h2>
-		 		<h3> Mylife in 2-minutes </h3>  <!-- SEO keywords -->
-				<p> To be completed ..</p>
-				<p> <bdi><dfn> التعليق الصوتي</dfn> هو <bdi></p>
-				
 				<h4> My Show </h4> <!-- podcast --> 
 				<ul>
 					<!-- Hear my thoughts -->
 					<li>Youtube</li>
 					<li>Soundcloud</li>
 				</ul>
-		 <!-- Scroll[3] Want to know more? -->
+					
+				<!-- Scroll[3] Want to know more? -->
 				<h4> Want to know my <abbr title="Voice Over">VO</abbr> story? <a> VO experience </a> </h4>
 				<h4> Check out <abbr title="Voice Over">VO</abbr> related blogs <a> VO tagged blogs </a> </h4>
-		 <h2> Selected Blogs </h2>
-				 <h3> Personal Thoughts <bdi>خواطر </bdi></h3>
-				 <h3>  Scholar Summary / Books/Movies review </h3>
-				 <iframe src="blog.omarshafie.com" name="blog" id="Blog"></iframe>
-
+			</section>
+				
+			<section>	
+				<h2 id="Blog"> Selected Blogs </h2>
+					 <h3> Personal Thoughts <bdi>خواطر </bdi></h3>
+					 <h3>  Scholar Summary / Books/Movies review </h3>
+					 <iframe src="https://blog.omarshafie.com/" name="blog" id="Blog"></iframe>
+			</section>
+				
+		</main>
+			
 		<!-- Scroll[4] what else is mine? -->
 		<footer>
-		 <h2 id="Contacts"> Contact </h3>
-		 <h4> Write me a message (contact form)</h4>
-			<form action="alert('Hello World!')" target="_self" method="post" autocomplete="off" novalidate>
-				Title:<br>
-				<input type="text" name="title" value="" autocomplete="on"placeholder="Enter the title of your message"><br>
-				Email:<br>
-				<input type="email" name="email" value="" placeholder="Optional"><br>
-				<br>
-				Message:<br>
-				<textarea type="text" name="message" rows="10" cols="30" placeholder="Let's record somthing together"></textarea><br>
-				<input type="image" src="img_submit.gif" alt="Submit" width="48" height="48">
-			</form>
-			 <h4> Social Media </h4>
-				<ul>
-					<!-- Follow me -->
-					<li>Twitter</li>
-					<li>Instgram</li>
-					
-					<!-- See my work -->
-					<li>LinkedIn</li>
-					<li>Github</li>
-					
-					<!-- Get in touch -->
-					<li>Whatsapp</li>
-					<li>Phone</li>	
-				</ul>
+			<h2 id="Contacts"> Contact </h3>
+			
+				 <h4> Write me a message (contact form)</h4>
+					<form action="alert('Hello World!')" target="_self" method="post" autocomplete="off" novalidate>
+						Title:<br>
+						<input type="text" name="title" value="" autocomplete="on" 
+							   placeholder="Enter the title of your message"><br>
+						Email:<br>
+						<input type="email" name="email" value="" placeholder="Optional"><br>
+						<br>
+						Message:<br>
+						<textarea type="text" name="message" rows="10" cols="30" 
+							  placeholder="Let's record somthing together"></textarea><br>
+						<input type="image" src="img_submit.gif" alt="Submit" width="48" height="48">
+					</form>
+			
+				 <h4> Social Media </h4>
+					<ul>
+						<!-- Follow me -->
+						<li>Twitter</li>
+						<li>Instgram</li>
+
+						<!-- See my work -->
+						<li>LinkedIn</li>
+						<li>Github</li>
+
+						<!-- Get in touch -->
+						<li>Whatsapp</li>
+						<li>Phone</li>	
+					</ul>
+			
 				<h6>copyright</h6>
+			
 				<h6>sitemap</h6>
+			
 				<h6>Back to top</h6>
+			
 				<!-- Studio Location
 			 <address>
 			 	Designed by Omar Shafie<br> 
@@ -109,6 +152,7 @@
 				Example.com<br>
 				Doha, Qatar
 			 </address> -->
-			</footer>
-		</body>
+			
+		</footer>
+	</body>
 </html>
