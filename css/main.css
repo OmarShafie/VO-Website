@@ -1,3 +1,7 @@
+body {
+  background-color: rgb(37,37,37);
+}
+
 .story {
   position:absolute;
   top:50%;
