@@ -12,38 +12,42 @@
 	</head>
 
 	<body>
-	
-		<a href="index.html"> <img src="/images/logo.jpg" alt="OmarShafie.com" title="OmarShafie.com" class="logo"></a>
-		<!-- Photo: Circle with instgram story clickable -->
-		<!-- One Minute Of AllCrazy fast One man show -->
-		<div class="story">
-			<img src="images/profile.jpg" alt="Story">
-			<svg viewbox="0 0 100 100">
-				<circle cx="50" cy="50" r="40"/>
-			</svg>
+		<div class="header">
+			<a href="index.html">
+				<img src="/images/logo.jpg" alt="OmarShafie.com" title="OmarShafie.com" class="logo">
+			</a>
+			<!-- Photo: Circle with instgram story clickable -->
+			<!-- One Minute Of AllCrazy fast One man show -->
+			<div class="story">
+				<img src="images/profile.jpg" alt="Story">
+				<svg viewbox="0 0 100 100">
+					<circle cx="50" cy="50" r="40"/>
+				</svg>
+			</div>
+
+			<section>
+				<article>
+					<p> <strong>Omar Shafie </strong> </p> <!-- Follow Button-->
+					<table>
+						<tr>
+							<td>9 services</td>
+							<td>170 followers</td>
+							<td>20+ works</td>
+						</tr>
+					</table>
+					<p>
+						An aspiring data scientist, passionate about <a ref="">data visualization!</a> 
+						<br>
+						Here, I am a professional <a ref="">Voice Over</a> artist. <br>
+						Both are my tools <em>to visualize thoughts & tell stories </em>.
+					</p>
+				</article>
+			</section>
 		</div>
 		
-		<section>
-			<article>
-				<p> <strong>Omar Shafie </strong> </p> <!-- Follow Button-->
-				<table>
-					<tr>
-						<td>9 services</td>
-						<td>170 followers</td>
-						<td>20+ works</td>
-					</tr>
-				</table>
-				<p>
-					An aspiring data scientist, passionate about <a ref="">data visualization!</a> 
-					<br>
-					Here, I am a professional <a ref="">Voice Over</a> artist. <br>
-					Both are my tools <em>to visualize thoughts & tell stories <em>.
-				</p>
-			</article>
-					
-		</section>
 		<hr>	
-		<nav>
+		
+		<nav class="topnav">
 			<a href="#VO">       Voice Over </a> |
 			<a href="#About">    About      </a> |
 			<a href="#Blog">     Blog       </a> |
@@ -59,96 +63,29 @@
 				
 				<!-- 9 styles slower 1 minute each with typography + thumbnail completes each other + head lines are SEO -->
 				<!-- https://heleneinbetween.com/2017/03/create-instagram-theme.html -->
-				<table>
-					<tr>
-						<td>Documentry</td>
-						<td>Commercial</td>
-						<td>Poetic</td>
-					</tr>
-					<tr>
-						<td>Documentry</td>
-						<td>Commercial</td>
-						<td>Poetic</td>
-					</tr>
-					<tr>
-						<td>Documentry</td>
-						<td>Commercial</td>
-						<td>Poetic</td>
-					</tr>
-				</table>
-				
-				<h4> Previous clients </h4> <!-- Logos or accounts -->
-				
-				<article>
-					<h4> Testimonials </h4> <!-- Tweets or comments or recommendations -->
-					
-				</article>
-				
-				<h4> Let's Record something Cool together </h4> <!-- Call to action -->
-				<button type="button" onclick="alert('Hello World!')"> Let't Connect </button> <!-- Jumps to Contact -->
+				<div class="row">
+					<div class="column">
+						<p>Documentry</p>
+						<p>Commercial</p>
+						<p>Poetic</p>
+					</div>
+					<div class="column">
+						<p>Documentry</p>
+						<p>Commercial</p>
+						<p>Poetic</p>
+					</div>
+					<div class="column">
+						<p>Documentry</p>
+						<p>Commercial</p>
+						<p>Poetic</p>
+					</div>
+				</div>
 			</section>
 			
-			<!-- Scroll[2] Bio: my story in 2 minutes (know more on Interactive Bio) + key phrases for SEO + photo -->
-			<section>
-				<h2 id="About"> Short Bio </h2>
-				<article>
-					<h3> Mylife in 2-minutes </h3>  <!-- SEO keywords -->
-					<p> To be completed ..</p>
-					<p> <bdi><dfn> التعليق الصوتي</dfn> هو <bdi></p>
-				</article>
-
-				<h4> My Show </h4> <!-- podcast --> 
-				<ul>
-					<!-- Hear my thoughts -->
-					<li>Youtube</li>
-					<li>Soundcloud</li>
-				</ul>
-					
-				<!-- Scroll[3] Want to know more? -->
-				<h4> Want to know my <abbr title="Voice Over">VO</abbr> story? <a> VO experience </a> </h4>
-				<h4> Check out <abbr title="Voice Over">VO</abbr> related blogs <a> VO tagged blogs </a> </h4>
-			</section>
-				
-			<section>	
-				<h2 id="Blog"> Blog </h2>
-					 <iframe src="https://blog.omarshafie.com/" style="width:100%" name="blog" id="Blog"></iframe>
-			</section>
-				
 		</main>
 			
 		<!-- Scroll[4] what else is mine? -->
 		<footer>
-			<h2 id="Contacts"> Contact </h3>
-			
-				 <h4> Write me a message (contact form)</h4>
-					<form action="alert('Hello World!')" target="_self" method="post" autocomplete="off" novalidate>
-						Title:<br>
-						<input type="text" name="title" value="" autocomplete="on" 
-							   placeholder="Enter the title of your message"><br>
-						Email:<br>
-						<input type="email" name="email" value="" placeholder="Optional"><br>
-						<br>
-						Message:<br>
-						<textarea type="text" name="message" rows="10" cols="30" 
-							  placeholder="Let's record somthing together"></textarea><br>
-						<input type="image" src="img_submit.gif" alt="Submit" width="48" height="48">
-					</form>
-			
-				 <h4> Social Media </h4>
-					<ul>
-						<!-- Follow me -->
-						<li>Twitter</li>
-						<li>Instgram</li>
-
-						<!-- See my work -->
-						<li>LinkedIn</li>
-						<li>Github</li>
-
-						<!-- Get in touch -->
-						<li>Whatsapp</li>
-						<li>Phone</li>	
-					</ul>
-			
 				<h6>copyright</h6>
 			
 				<h6>sitemap</h6>
