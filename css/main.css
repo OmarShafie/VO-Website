@@ -1,7 +1,7 @@
 body {
   background: rgb(37,37,37);
   color: rgb(255,255,255);
-   font-family: sann-serif;
+   font-family: san-serif;
 }
 
 .header {
@@ -12,6 +12,7 @@ body {
 .topnav {
   overflow: hidden;
   background-color: #333;
+  text-align: center;
 }
 
 /* Style the topnav links */
@@ -96,7 +97,7 @@ a {
 }
 
 footer {
-  background-color: #f1f1f1;
+  background-color: rgb(37,37,37);
   padding: 10px;
   text-align: center;
 }
