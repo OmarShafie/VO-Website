@@ -12,6 +12,7 @@ body {
   background-color: rgb(37,37,37); /* Gradient image*/
   background-repeat: repeat-x;
   max-width: 50%; /* In small Screens*/ 
+  positionL sticky;
 }
 
 .topnav {
@@ -74,8 +75,8 @@ a {
 
 .story {
   position:absolute;
-  top:50%;
-  left:50%;
+  top:20%;
+  left:20%;
   transform:translate(-50%,-50%);
   width:100px;
   height:100px;
@@ -85,8 +86,8 @@ a {
   width:70px;
   border-radius:50%;
   position:absolute;
-  top:50%;
-  left:50%;
+  top:20%;
+  left:20%;
   transform:translate(-50%,-50%);
 }
 .story svg {
