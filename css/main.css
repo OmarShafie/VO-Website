@@ -1,18 +1,22 @@
 body {
   background: rgb(37,37,37);
   color: rgb(255,255,255);
-   font-family: san-serif;
+  font-family: san-serif;
+  margin: 0px;
+  padding: 0px;
 }
 
 .header {
-  background-color: rgb(37,37,37);
-  padding: 0px;
+  background-color: rgb(37,37,37); /* Gradient image*/
+  background-repeat: repeat-x;
+  width: 50%; /* In small Screens*/ 
+  max-width: 100px;
 }
 
 .topnav {
   overflow: hidden;
   background-color: #333;
-  text-align: center;
+  text-align: justify;
 }
 
 /* Style the topnav links */
@@ -97,6 +101,7 @@ a {
 }
 
 footer {
+  padding: 0px;
   background-color: rgb(37,37,37);
   padding: 10px;
   text-align: center;
@@ -105,5 +110,6 @@ footer {
   color:#fff;
   background-color:#121212;
   background-image:url(https://www.suwaidan.com/wp-content/themes/onyx/assets/images/footer-bg.jpg);
-  background-repeat:repeat;background-position:center center}
+  background-repeat:repeat;
+  background-position:center center}
 }
