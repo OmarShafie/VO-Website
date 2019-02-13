@@ -100,4 +100,10 @@ footer {
   background-color: rgb(37,37,37);
   padding: 10px;
   text-align: center;
+  position:relative;
+  overflow:hidden;
+  color:#fff;
+  background-color:#121212;
+  background-image:url(https://www.suwaidan.com/wp-content/themes/onyx/assets/images/footer-bg.jpg);
+  background-repeat:repeat;background-position:center center}
 }
