@@ -11,8 +11,7 @@ body {
 .header {
   background-color: rgb(37,37,37); /* Gradient image*/
   background-repeat: repeat-x;
-  width: 50%; /* In small Screens*/ 
-  max-width: 100px;
+  max-width: 50%; /* In small Screens*/ 
 }
 
 .topnav {
