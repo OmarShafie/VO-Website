@@ -608,11 +608,13 @@ h1 {
   display: flex;
   flex-flow: row wrap;
 }
-
+.site-logo {
+	height: 100%;
+	width: auto;
+}
 footer {
   background: #2A2E33;
   margin-top: auto;
-  width: 1170px;
 }
 .footer-list-top {
   width: 33.333%
