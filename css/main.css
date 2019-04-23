@@ -20,7 +20,7 @@ body {
 }
 
 #mainNav {
-    height: 80px;
+    height: 4vw;
 }
 
 .nav_container {
@@ -71,12 +71,11 @@ a:hover, a:hover i {
 }
 
 #mainNav .site-logo img {
-    max-height: 79px;
+    max-height: 4vw;
 }
 .navbar-default:not(.affix) .site-logo img, .navbar-default.affix .site-logo img {
     width: auto;
     height: 100%;
-    max-height: 100%;
 }
 img {
     vertical-align: middle;
@@ -248,7 +247,8 @@ img {
 }
 
 section {
-    padding: 30px 0px 0px;
+    padding: 4vw 0px 0px;
+    margin: 10px 0px;
 }
 
 .col-40 {
