@@ -116,7 +116,6 @@ img {
 
 #top-section {
     min-height: 100vh;
-    position: relative;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -204,7 +203,7 @@ img {
 }
 
 .article-about {
-    width: 50%;
+    width: 100%;
 }
 
 .name {
@@ -354,6 +353,8 @@ p {
     height:400px;
     width: auto;
     display:inline-block;
+    float: left;
+    margin: auto 70px;
 }
 .img-production {
     height:auto;
