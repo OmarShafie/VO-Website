@@ -481,9 +481,7 @@ td {
     height: 300px;
     text-align: center;
 }
-footer {
-    font-size: 1em; 
-}
+
 @media (min-width: 1200px)
 .site_container {
     width: 1170px;
@@ -614,22 +612,22 @@ h1 {
 footer {
   background: #2A2E33;
   margin-top: auto;
-  width: 100%
+  width: 1170px;
 }
 .footer-list-top {
   width: 33.333%
 }
 .footer-list-top > li {
   text-align: center;
-  padding-bottom: 10px
+  padding-bottom: 10px;
 }
 .footer-list-header {
   padding: 10px 0 5px 0;
   color: #fff;
-  font: 2.3vw "Oswald", sans-serif
+  font-size: 1em;
 }
 .footer-list-anchor {
-  font: 1.3em "Open Sans", sans-serif
+  font-size: 1em;
 }
 .footer-social-section {
   width: 100%;
@@ -656,18 +654,18 @@ footer {
 .footer-social-connect {
   display: flex;
   align-items: center;
-  font: 3.5em "Oswald", sans-serif;
+  font: 2em;
   color: #fff
 }
 .footer-social-small {
-  font-size: 0.6em;
+  font-size: 1em;
   padding: 0px 20px
 }
 .footer-social-overlap > a {
-  font-size: 3em
+  font-size: 1em;
 }
 .footer-social-overlap > a:not(:first-child) {
-  margin-left: 0.38em
+  margin-left: 0.38em;
 }
 .footer-bottom-section {
   width: 100%;
@@ -679,7 +677,7 @@ footer {
   margin-right: auto
 }
 .footer-bottom-wrapper {
-  font-size: 1.5em;
+  font-size: 1em;
   color: #fff
 }
 .footer-address {
