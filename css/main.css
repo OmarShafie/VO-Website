@@ -608,9 +608,9 @@ h1 {
   display: flex;
   flex-flow: row wrap;
 }
-.site-logo {
-	height: 100%;
-	width: auto;
+.site-logo img{
+	width: 100%;
+	height: auto;
 }
 footer {
   background: #2A2E33;
