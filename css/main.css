@@ -218,7 +218,7 @@ img {
     border-top: 1px solid white;
     border-bottom: 1px solid white;
     padding: 0 25px;
-    margin: 15px auto;
+    margin: 0px auto;
     font-size: 3vw;
     font-weight: 500;
     letter-spacing: 4px;
@@ -227,8 +227,8 @@ img {
 .slogan {
     font-size: 1.5vw;
     line-height: 2;
-    margin: 15px auto;
-    padding: 0px 25px;
+    margin: 1vw auto 3vw;
+    padding: 0px;
     text-align: center;
     font-weight: 300;
 }
