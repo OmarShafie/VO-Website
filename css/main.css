@@ -206,13 +206,21 @@ img {
 .footer-container {
     margin: auto;
     width: 1170px;
-    height: 80px;
 }
 
 .article-about {
     width: 50%;
 }
 
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.center {
+    float: center;
+}
 .name {
     border: 0;
     border-top: 1px solid white;
@@ -247,8 +255,7 @@ img {
 }
 
 section {
-    padding: 4vw 0px 0px;
-    margin: 10px 0px;
+    padding: 4vw 0px;
 }
 
 .col-40 {
