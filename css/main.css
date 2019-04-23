@@ -2,6 +2,7 @@
 
 html, body {
     font-size: 100%;
+    height: 100%;
     font-family: "Noto Naskh Arabic", "Noto Sans UI", sans-serif;
 }
 
@@ -20,7 +21,7 @@ body {
 }
 
 #mainNav {
-    height: 80px;
+    height: 4vw;
 }
 
 .nav_container {
@@ -67,31 +68,37 @@ a {
 
 a:hover, a:hover i {
     color: crimson;
+    border-color: crimson;
 }
 
 #mainNav .site-logo img {
-    max-height: 79px;
+    max-height: 4vw;
 }
 .navbar-default:not(.affix) .site-logo img, .navbar-default.affix .site-logo img {
     width: auto;
     height: 100%;
-    max-height: 100%;
 }
 img {
     vertical-align: middle;
     border: 0;
 }
 .horizontal-list li {
-    display: inline;
+    display: inline-block;
+    padding: 0px 7px;
 }
-
+.nav li {
+    border: 1px solid transparent;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 7px;
+}
 .navbar-default .nav > li > a, .navbar-default .nav > li > a:focus {
     border: 1px solid transparent;
 }
 .navbar-default .nav > li.active > a, .navbar-default .nav > li.active > a:focus {
     color: crimson;
     background-color: transparent;
-    border: crimson
+    border-color: crimson;
 }
 .navbar-default .nav > li > a:not(.navbar-brand), .navbar-default .nav > li > a:not(.navbar-brand):focus {
     font-size: 0.8em;
@@ -156,13 +163,14 @@ img {
     background-attachment: fixed;
     background-repeat: no-repeat;
     position: absolute;
-    width: 100%;
     height: 100%;
+    width: 100%;
+    background-size: auto 100%;
 }
 
 #section-story {
     background-image: url(../images/promo1_bg.jpg);
-    background-position: center;
+    background-position: top center;
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
@@ -199,29 +207,37 @@ img {
 .footer-container {
     margin: auto;
     width: 1170px;
-    height: 80px;
 }
 
 .article-about {
     width: 100%;
 }
 
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.center {
+    float: center;
+}
 .name {
     border: 0;
     border-top: 1px solid white;
     border-bottom: 1px solid white;
     padding: 0 25px;
-    margin: 15px auto;
-    font-size: 4em;
+    margin: 0px auto;
+    font-size: 3vw;
     font-weight: 500;
     letter-spacing: 4px;
 }
 
 .slogan {
-    font-size: 2em;
+    font-size: 1.5vw;
     line-height: 2;
-    margin: 15px auto;
-    padding: 0px 25px;
+    margin: 1vw auto 3vw;
+    padding: 0px;
     text-align: center;
     font-weight: 300;
 }
@@ -240,7 +256,7 @@ img {
 }
 
 section {
-    padding: 100px 0;
+    padding: 4vw 0px;
 }
 
 .col-40 {
@@ -296,6 +312,7 @@ img {
 
 p {
     line-height: 2;
+    display: inline-block;
 }
 
 @media (min-width: 992px)
@@ -367,6 +384,8 @@ p {
 }
 ul {
     padding: 0px;
+    list-style: none;
+    margin: auto;
 }
 .box-primary {
     background-color: white !important;
@@ -416,6 +435,7 @@ ul {
 }
 .contactUsForm{
     margin: 0px auto;
+    padding: 20px;
     width:70%;
 }
 button {
@@ -454,18 +474,17 @@ a.button-link:hover{
 }
 
 table {
-    border-collapse: collapse;
-    width: 100%;
-    margin:auto;
+	border-collapse: collapse;
+	width: 100%;
+	margin:auto;
+	table-layout: fixed ;
 }
 
 td {
     height: 300px;
     text-align: center;
 }
-footer {
-    font-size: 1em; 
-}
+
 @media (min-width: 1200px)
 .site_container {
     width: 1170px;
@@ -581,4 +600,180 @@ h1 {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+}
+.generic-anchor {
+	color: deepskyblue;
+	&:hover {
+		color: crimson;
+	}
+}
+.flex-rw {
+  display: flex;
+  flex-flow: row wrap;
+}
+.site-logo img{
+	width: auto;
+	height: 100%;
+}
+footer {
+  background: #2A2E33;
+  margin-top: auto;
+}
+.footer-list-top {
+  width: 33.333%
+}
+.footer-list-top > li {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.footer-list-header {
+  padding: 10px 0 5px 0;
+  color: #fff;
+  font-size: 1em;
+}
+.footer-list-anchor {
+  font-size: 1em;
+}
+.footer-social-section {
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  margin-top: 5px;
+}
+.footer-social-section::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 10px;
+  border-top: 1px solid crimson;
+  width: calc(100% - 20px)
+}
+.footer-social-overlap {
+  position: relative;
+  z-index: 2;
+  background: #2A2E33;
+  padding: 0 20px
+}
+.footer-social-connect {
+  display: flex;
+  align-items: center;
+  font: 2em;
+  color: #fff
+}
+.footer-social-small {
+  font-size: 1em;
+  padding: 0px 20px
+}
+.footer-social-overlap > a {
+  font-size: 1em;
+}
+.footer-social-overlap > a:not(:first-child) {
+  margin-left: 0.38em;
+}
+.footer-bottom-section {
+  width: 100%;
+  padding: 10px;
+  border-top: 1px solid crimson;
+  margin-top: 10px
+}
+.footer-bottom-section > div:first-child {
+  margin-right: auto
+}
+.footer-bottom-wrapper {
+  font-size: 1em;
+  color: #fff
+}
+.footer-address {
+  display: inline;
+  font-style: normal
+}
+@media only screen and (max-width: 768px) {
+  .footer-list-header {
+    font-size: 2em
+  }
+  .footer-list-anchor {
+    font-size: 1.1em
+  }
+  .footer-social-connect {
+    font-size: 2.5em
+  }
+  .footer-social-overlap > a {
+    font-size: 2.24em
+  }
+  .footer-bottom-wrapper {
+    font-size: 1.3em
+  }
+}
+@media only screen and (max-width: 568px) {
+  main {
+    font-size: 5em
+  }
+  .footer-list-top {
+    width: 100%
+  }
+  .footer-list-header {
+    font-size: 3em;
+  }
+  .footer-list-anchor {
+    font-size: 1.5em
+  }
+  .footer-social-section {
+    justify-content: center
+  }
+  .footer-social-section::after {
+    top: 25%
+  }
+  .footer-social-connect {
+    margin-bottom: 10px;
+    padding: 0 10px
+  }
+  .footer-social-overlap {
+    display: flex;
+    justify-content: center;
+  }
+  .footer-social-icons-wrapper {
+    width: 100%;
+    padding: 0
+  }
+  .footer-social-overlap > a:not(:first-child) {
+    margin-left: 20px;
+  }
+  .footer-bottom-section {
+    padding: 0 5px 10px 5px
+  }
+  .footer-bottom-wrapper {
+    text-align: center;
+    width: 100%;
+    margin-top: 10px
+  }
+}
+@media only screen and (max-width: 480px) {
+  .footer-social-overlap > a {
+    margin: auto
+  }
+  .footer-social-overlap > a:not(:first-child) {
+    margin-left: 0;
+  }
+  .footer-bottom-rights {
+    display: block
+  }
+}
+@media only screen and (max-width: 320px) {
+  .footer-list-header {
+    font-size: 2.2em
+  }
+  .footer-list-anchor {
+    font-size: 1.2em
+  }
+  .footer-social-connect {
+    font-size: 2.4em
+  }
+  .footer-social-overlap > a {
+    font-size: 2.24em
+  }
+  .footer-bottom-wrapper {
+    font-size: 1.3em
+  }
 }
