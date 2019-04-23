@@ -384,6 +384,7 @@ p {
 ul {
     padding: 0px;
     list-style: none;
+    margin: auto;
 }
 .box-primary {
     background-color: white !important;
@@ -472,9 +473,10 @@ a.button-link:hover{
 }
 
 table {
-    border-collapse: collapse;
-    width: 100%;
-    margin:auto;
+	border-collapse: collapse;
+	width: 100%;
+	margin:auto;
+	table-layout: fixed ;
 }
 
 td {
