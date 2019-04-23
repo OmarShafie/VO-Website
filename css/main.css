@@ -97,7 +97,7 @@ img {
 .navbar-default .nav > li.active > a, .navbar-default .nav > li.active > a:focus {
     color: crimson;
     background-color: transparent;
-    border: crimson
+    border-color: crimson;
 }
 .navbar-default .nav > li > a:not(.navbar-brand), .navbar-default .nav > li > a:not(.navbar-brand):focus {
     font-size: 0.8em;
