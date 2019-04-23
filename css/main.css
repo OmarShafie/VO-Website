@@ -67,6 +67,7 @@ a {
 
 a:hover, a:hover i {
     color: crimson;
+    border-color: crimson;
 }
 
 #mainNav .site-logo img {
@@ -82,9 +83,14 @@ img {
     border: 0;
 }
 .horizontal-list li {
-    display: inline;
+    display: inline-block;
 }
-
+.nav li {
+    border: 1px solid transparent;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 7px;
+}
 .navbar-default .nav > li > a, .navbar-default .nav > li > a:focus {
     border: 1px solid transparent;
 }
@@ -214,13 +220,13 @@ img {
     border-bottom: 1px solid white;
     padding: 0 25px;
     margin: 15px auto;
-    font-size: 4em;
+    font-size: 3vw;
     font-weight: 500;
     letter-spacing: 4px;
 }
 
 .slogan {
-    font-size: 2em;
+    font-size: 1.5vw;
     line-height: 2;
     margin: 15px auto;
     padding: 0px 25px;
@@ -242,7 +248,7 @@ img {
 }
 
 section {
-    padding: 30px 0;
+    padding: 30px 0px 0px;
 }
 
 .col-40 {
@@ -416,6 +422,7 @@ ul {
 }
 .contactUsForm{
     margin: 0px auto;
+    padding: 20px;
     width:70%;
 }
 button {
