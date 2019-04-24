@@ -39,7 +39,6 @@ body {
 .navbar-default {
     border-color: rgba(255,255,255,0.1);
     border-style: solid;
-    background-color: rgba(42,46,51,0.9);
     color: white;
 }
 .navbar-default {
@@ -51,12 +50,17 @@ body {
 }
 .navbar-fixed-top, .navbar-fixed-bottom {
     position: fixed;
+    background:transparent;
     right: 0;
     left: 0;
     z-index: 1030;
 }
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
     display: block;
+}
+
+nav{
+    background: rgba(42,46,51,0.9) !important;
 }
 
 a {
@@ -68,7 +72,6 @@ a {
 
 a:hover, a:hover i {
     color: crimson;
-    border-color: crimson;
 }
 
 #mainNav .site-logo img {
@@ -87,19 +90,13 @@ img {
     padding: 0px 7px;
 }
 .nav li {
-    border: 1px solid transparent;
-    border-radius: 10px;
     display: inline-block;
     padding: 7px;
 }
 .navbar-default .nav > li > a, .navbar-default .nav > li > a:focus {
-    border: 1px solid transparent;
+    padding: 11px;
 }
-.navbar-default .nav > li.active > a, .navbar-default .nav > li.active > a:focus {
-    color: crimson;
-    background-color: transparent;
-    border-color: crimson;
-}
+
 .navbar-default .nav > li > a:not(.navbar-brand), .navbar-default .nav > li > a:not(.navbar-brand):focus {
     font-size: 0.8em;
     font-weight: 500;
@@ -111,7 +108,10 @@ img {
     white-space: nowrap;
 }
 .navbar-default .nav > li > a:hover, .navbar-default .nav > li > a:active {
+    padding: 10px;
     color: crimson;
+    border: 1px solid crimson;
+    border-radius: 10px;
 }
 .navbar-nav > li > a {
     line-height: 2;
@@ -176,13 +176,16 @@ img {
 }
 #section-promo {
     background-image: url(../images/promo2_bg.jpg);
-    /*background-color: rgba(0,0,0,0.4);*/
     background-position: left;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+.darken {
+    background-color: rgba(0,0,0,0.4);
+    display: cover: 
+}
 .fitScreen{
     min-height: 100vh;
 }
@@ -210,7 +213,8 @@ img {
 }
 
 .article-about {
-    width: 100%;
+    width: 50%;
+    float: right;
 }
 
 .left {
@@ -260,18 +264,30 @@ section {
 }
 
 .col-40 {
-    width: 40%;
+    flex: 40%;
+    max-width: 40%;
+    margin: auto 0px;
 }
 .col-50 {
     width: 50%;
 }
 .col-60 {
-    width: 60%;
+    flex: 60%;
+    max-width: 60%;
+    margin: auto 0px;
 }
 .text-center {
     text-align: center;
     align-items: center;
 }
+@media screen and (max-width: 800px) {
+  .col-40,.col-60 {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
 .modulesTitle {
     text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
     text-transform: uppercase;
@@ -614,6 +630,13 @@ h1 {
 .site-logo img{
 	width: auto;
 	height: 100%;
+}
+.row {
+    margin: auto;
+    width: 1170px;
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
 }
 footer {
   background: #2A2E33;
