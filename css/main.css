@@ -218,6 +218,7 @@ p {
 .arabic {
     direction:rtl;
 }
+
 .img-rounded {
     border-radius: 10px;
 }
@@ -230,10 +231,6 @@ p {
     display: inline-block;
     padding: 0px 7px;
 }
-
-
-
-
 
 .social-icons li a i{
     background-color: deepskyblue;
@@ -251,20 +248,25 @@ p {
     background-color: crimson;
 }
 
+#section-story {
+    background-image: url(../images/promo1_bg.jpg);
+    background-position: top center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
 #section-promo {
     background-image: url(../images/promo2_bg.jpg);
     background-position: left;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 0px;
+	padding: 0px;
 }
 
 .darken {
     background-color: rgba(0,0,0,0.4);
     display: cover: 
 }
-
 
 .footer-container {
     margin: auto;
@@ -307,6 +309,11 @@ p {
     flex: 60%;
     max-width: 60%;
     margin: auto 0px;
+}
+
+.text-center {
+    text-align: center;
+    align-items: center;
 }
 
 hr {
