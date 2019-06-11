@@ -5,7 +5,7 @@
 .homepage {
     background-image: url(../images/homepage_bg.png);
     background-position: center;
-    /* background-size: auto 100%; */
+    background-size: auto 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
     /* position: absolute; */
