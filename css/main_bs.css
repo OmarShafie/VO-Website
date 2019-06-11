@@ -28,7 +28,7 @@
 }
 
 .slogan {
-    margin: 1em auto 3em;
+    margin: 5vh auto;
 }
 
 .navbar-brand > img {
@@ -46,4 +46,9 @@
 .bg-mid {
     background-color: #2A2E33;
     color: white;
+}
+
+.spacingLarge {
+    letter-spacing: 7px;
+    word-spacing: 7px;
 }
