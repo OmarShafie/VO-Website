@@ -36,15 +36,15 @@
 }
 
 .bg-dark {
-    background-color: #141d26;
+    background-color: #141d26 !important;
     color: white;
 }
 .bg-light {
-    background-color: white;
+    background-color: white !important;
     color: #141d26;
 }
 .bg-mid {
-    background-color: #2A2E33;
+    background-color: #2A2E33 !important;
     color: white;
 }
 
