@@ -242,10 +242,12 @@ p {
     text-align: center;
     display: inline-block;
     margin: 0 5px;
+    transition-duration: 0.4s;
 }
 
 .social-icons li a:hover i {
     background-color: crimson;
+    color: white;
 }
 
 #section-story {
