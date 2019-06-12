@@ -179,3 +179,14 @@ ul {
     color: white;
 }
 
+.fa-fw {
+    width: 2em;
+    text-align: center;
+}
+.fab {
+    display: inline-block;
+    font-size: 1.7em;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
