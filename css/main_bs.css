@@ -121,3 +121,13 @@ a:hover, a:hover i {
     border-radius: 10px;
 }
 
+hr {
+    max-width: 50px;
+    border-width: 3px;
+    border: 0;
+    border-top: 3px solid crimson;
+}
+
+.col {
+    padding: 5px;
+}
