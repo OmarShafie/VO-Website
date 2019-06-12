@@ -147,3 +147,8 @@ hr {
     margin: 0px auto;
     transition: background-color .35s, opacity .35s;
 }
+
+a.btn:hover{ 
+    color:white;
+    background-color: firebrick;
+}
