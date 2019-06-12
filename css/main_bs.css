@@ -2,6 +2,7 @@
 
 html, body {
     font-family: "Noto Naskh Arabic", "Noto Sans UI", sans-serif;
+    font-size: calc(1em + 1vw);
 }
 
 #top-section {
