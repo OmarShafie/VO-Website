@@ -30,10 +30,16 @@
 		<link rel="stylesheet" type="text/css" href="css/main_bs.css">
 		<link rel="stylesheet" type="text/css" href="css/footer.css">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
-		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 		<script>
-		  AOS.init();
+		 /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+			function myFunction() {
+			  var x = document.getElementById("myTopnav");
+			  if (x.className === "navbar-nav") {
+			    x.className += " responsive";
+			  } else {
+			    x.className = "navbar-nav";
+			  }
+			}
 		</script>
          <!-- Froala Editor CSS -->
     </head>
@@ -42,16 +48,16 @@
 	<!-- NEXT --><!-- Illustrator made logo-->
 	<!-- NEXT --><!-- Add QF Radio styles-->
 		<div id="top-section" class="bg-dark container-fluid">
-				<div class="homepage">
+				<div class="homepage text-cente">
 					<!-- NEXT --><!-- float left Downloadable Demo Play button</h1-->
-					<h1 class="name display-4">Omar Shafie</h1>
+					<h1 class="name display-4r">Omar Shafie</h1>
 					<h2 class="slogan spacingLarge ">Story-teller Voice Over Artist</h2>
 			</div>
 		</div>
 	    
-		<nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top justify-content-around">
+		<nav  class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top justify-content-around">
 			<a class="navbar-brand" href="#page-top"><img src="images/logo.png" alt="logo" /></a>
-			<ul class="navbar-nav">
+			<ul class="navbar-nav" id = "myTopnav">
 				<li class="nav-item">
 					<a class="nav-link page-scroll" href="#section-about">About</a>
 				</li>
@@ -69,6 +75,11 @@
 				</li-->
 				<li class="nav-item">
 					<a class="nav-link page-scroll" href="#section-contact">Contact</a>
+				</li>
+				<li>
+					<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+						<i class="fa fa-bars"></i>
+					</a>
 				</li>
 			</ul>
 		</nav>
