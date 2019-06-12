@@ -102,9 +102,6 @@ footer {
   }
 }
 @media only screen and (max-width: 568px) {
-  main {
-    font-size: 5em
-  }
   .footer-list-top {
     width: 100%
   }
