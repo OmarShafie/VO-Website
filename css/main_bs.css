@@ -95,7 +95,7 @@ html, body {
 }
 
 .customer-bg {
-    height: 200px;
+    height: 150px;
     width: auto;
     max-width:100%;
 }
@@ -236,3 +236,8 @@ body {
   }
 }
 
+@media screen and (max-width: 600px) {
+    #section-story {
+        text-align: center!important;
+    }
+}
