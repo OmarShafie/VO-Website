@@ -110,7 +110,7 @@ html, body {
 }
 
 .img-production, .img-production > img{
-    width: 50vw;
+    width: 100%;
     padding: 0px;
 }
 
