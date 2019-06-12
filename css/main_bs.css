@@ -67,8 +67,8 @@
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    min-height: 50vh;
-    max-height: 100vh;
+    min-height: 500px;
+    max-height: 80vh;
 }
 
 #section-promo {
@@ -81,7 +81,7 @@
 
 .gallery-image {
     opacity: 0.7;
-    height: 200px;
+    height: 25vh;
 }
 .gallery-image:hover {
   opacity: 1.0;
@@ -130,4 +130,20 @@ hr {
 
 .col {
     padding: 5px;
+}
+
+.btn-primary {
+    border: 1px solid firebrick;
+    color: white;
+    background-color: crimson;
+    border-bottom: solid 3px maroon;
+    border-radius: 3.5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1em;
+    padding: 15px 30px;
+    line-height: 1.5;
+    display: block;
+    margin: 0px auto;
+    transition: background-color .35s, opacity .35s;
 }
