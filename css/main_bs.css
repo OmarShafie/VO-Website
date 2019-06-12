@@ -111,7 +111,7 @@
 a:hover, a:hover i {
     color: crimson !important;
 }
-.active > a, nav .navbar > li > a:not(.navbar-brand):hover, nav .navbar > li > a:active {
+.active > a, nav .navbar-nav > li > a:not(.navbar-brand):hover, nav .navbar-nav > li > a:active {
     border: 1px solid crimson !important;
     color: crimson !important;
     border-radius: 10px;
