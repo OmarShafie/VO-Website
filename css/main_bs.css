@@ -107,3 +107,13 @@
     width: 50vw;
     padding: 0px;
 }
+
+a:hover, a:hover i {
+    color: crimson !important;
+}
+.active > a, nav .navbar > li > a:not(.navbar-brand):hover, nav .navbar > li > a:active {
+    border: 1px solid crimson !important;
+    color: crimson !important;
+    border-radius: 10px;
+}
+
