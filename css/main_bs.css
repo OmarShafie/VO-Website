@@ -197,6 +197,6 @@ ul {
     -moz-osx-font-smoothing: grayscale;
 }
 
-main {
+body {
     position: relative;
 }
