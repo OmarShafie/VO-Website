@@ -1,6 +1,5 @@
 #top-section {
     height: 100vh;
-    padding: 0px;
 }
 
 .homepage {
@@ -58,7 +57,7 @@
     direction:rtl;
 }
 
-.container, .container-fluid {
+.container, #section-production {
     padding: 4em 0px;
 }
 
