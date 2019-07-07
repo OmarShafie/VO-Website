@@ -9,7 +9,7 @@ html, body {
 }
 
 .homepage {
-    background-image: url(../images/homepage_bg.png);
+    background-image: url(../images/logo.svg);
 
     background-position: center;
     background-size: auto 100%;
