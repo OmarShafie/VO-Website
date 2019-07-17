@@ -61,7 +61,7 @@ html, body {
     direction:rtl;
 }
 
-.arabic-special {
+h1, h2, h3, h4, h5, h6, .arabic-special {
     font-family: 'El Messiri', sans-serif;
 }
 
