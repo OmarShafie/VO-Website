@@ -10,7 +10,7 @@ html, body {
     background-image: url(../images/logo.svg);
 
     background-position: top center;
-    background-size: auto 70%;
+    background-size: auto 75%;
     background-repeat: no-repeat;
     /* position: absolute; */
     height: 100vh;
@@ -27,12 +27,13 @@ html, body {
 .name {
     border-top: 1px solid white;
     border-bottom: 1px solid white;
-    padding: 0 0.5em;
+    padding: 3vh 0.5em;
     margin: 0 auto;
+    font-size: 3rem;
 }
 
 .slogan {
-    margin: 5vh auto;
+    margin: 3vh auto;
 }
 
 .navbar-brand > img {
@@ -65,8 +66,12 @@ h1, h2, h3, h4, h5, h6, .arabic-special {
     font-family: 'El Messiri', sans-serif;
 }
 
-.container, #section-production {
+.container {
     padding: 4em 0px;
+}
+
+#section-production {
+    padding: 4em 0px 0px 0px;
 }
 
 #section-story > div > div{
@@ -77,6 +82,7 @@ h1, h2, h3, h4, h5, h6, .arabic-special {
     background-repeat: no-repeat;
     min-height: 500px;
     max-height: 80vh;
+    background-size: cover;
 }
 
 #section-promo {
