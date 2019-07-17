@@ -134,6 +134,7 @@ hr {
     border-width: 3px;
     border: 0;
     border-top: 3px solid crimson;
+    margin-top: 0px;
 }
 
 .col {
