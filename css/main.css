@@ -1,7 +1,5 @@
-@import url(//fonts.googleapis.com/earlyaccess/notonaskharabic.css);
-
 html, body {
-    font-family: "Noto Naskh Arabic", "Noto Sans UI", sans-serif;
+    font-family: 'Tajawal', sans-serif;
 }
 
 #top-section {
@@ -61,6 +59,10 @@ html, body {
 
 .arabic {
     direction:rtl;
+}
+
+.arabic-special {
+    font-family: 'El Messiri', sans-serif;
 }
 
 .container, #section-production {
