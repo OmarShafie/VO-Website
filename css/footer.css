@@ -15,7 +15,7 @@ footer {
 }
 .footer-list-top {
   width: 33.333%;
-  margin: auto;
+  margin: 10px auto;
 }
 .footer-list-top > li {
   text-align: center;
