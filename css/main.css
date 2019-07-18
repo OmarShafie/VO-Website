@@ -3,7 +3,7 @@ html, body {
 }
 
 #top-section {
-    height: 100vh;
+    height: 80vh;
 }
 
 a {
@@ -16,7 +16,7 @@ a {
     background-size: auto 75%;
     background-repeat: no-repeat;
     /* position: absolute; */
-    height: 100vh;
+    height: 100%;
     /* width: 100%; */
     display: flex;
     justify-content: flex-end;
