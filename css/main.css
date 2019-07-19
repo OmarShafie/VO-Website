@@ -261,6 +261,9 @@ body {
     #section-story {
         text-align: center!important;
     }
+    .subhead {
+    padding: 2em 0px 0px 0px;
+}
 }
 
 /* ----------- iOS ----------- */
