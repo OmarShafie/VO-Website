@@ -1,21 +1,30 @@
-@import url(//fonts.googleapis.com/earlyaccess/notonaskharabic.css);
-
 html, body {
-    font-family: "Noto Naskh Arabic", "Noto Sans UI", sans-serif;
+    font-family: 'Tajawal', sans-serif;
+    scroll-behavior: smooth;
 }
 
 #top-section {
-    height: 100vh;
+    height: 90vh;
 }
 
+a.anchor {
+    display: block;
+    position: relative;
+    top: -60px;
+    visibility: hidden;
+}
+
+a {
+    color: deepskyblue;
+}
 .homepage {
     background-image: url(../images/logo.svg);
 
-    background-position: center;
-    background-size: auto 100%;
+    background-position: top center;
+    background-size: auto 75%;
     background-repeat: no-repeat;
     /* position: absolute; */
-    height: 100vh;
+    height: 100%;
     /* width: 100%; */
     display: flex;
     justify-content: flex-end;
@@ -29,12 +38,13 @@ html, body {
 .name {
     border-top: 1px solid white;
     border-bottom: 1px solid white;
-    padding: 0 0.5em;
+    padding: 3vh 0.5em;
     margin: 0 auto;
+    font-size: 3rem;
 }
 
 .slogan {
-    margin: 5vh auto;
+    margin: 3vh auto;
 }
 
 .navbar-brand > img {
@@ -63,8 +73,16 @@ html, body {
     direction:rtl;
 }
 
-.container, #section-production {
+h1, h2, h3, h4, h5, h6, .arabic-special {
+    font-family: 'El Messiri', sans-serif;
+}
+
+.container {
     padding: 4em 0px;
+}
+
+#section-production {
+    padding: 4em 0px 0px 0px;
 }
 
 #section-story > div > div{
@@ -75,6 +93,7 @@ html, body {
     background-repeat: no-repeat;
     min-height: 500px;
     max-height: 80vh;
+    background-size: cover;
 }
 
 #section-promo {
@@ -132,6 +151,7 @@ hr {
     border-width: 3px;
     border: 0;
     border-top: 3px solid crimson;
+    margin-top: 0px;
 }
 
 .col {
@@ -240,4 +260,8 @@ body {
     #section-story {
         text-align: center!important;
     }
+}
+
+label {
+    display: inline;
 }
