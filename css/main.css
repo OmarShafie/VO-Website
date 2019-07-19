@@ -23,6 +23,7 @@ a {
     background-position: top center;
     background-size: auto 75%;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     /* position: absolute; */
     height: 100%;
     /* width: 100%; */
@@ -261,6 +262,15 @@ body {
         text-align: center!important;
     }
 }
+
+/* ----------- iOS ----------- */
+@supports (-webkit-overflow-scrolling: touch) {
+
+    #section-promo, .homepage, #section-story > div > div {
+        background-attachment: scroll;
+    }
+}
+
 
 label {
     display: inline;
