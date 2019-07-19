@@ -41,14 +41,12 @@
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
 		<link href="https://fonts.googleapis.com/css?family=El+Messiri|Tajawal&display=swap" rel="stylesheet">
 		<script>
-		 /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-			function myFunction() {
-			  var x = document.getElementById("myTopnav");
-			  if (x.className === "navbar-nav") {
-			    x.className += " responsive";
-			  } else {
-			    x.className = "navbar-nav";
-			  }
+			function openNav() {
+			  document.getElementById("mySidenav").style.width = "80%";
+			}
+
+			function closeNav() {
+			  document.getElementById("mySidenav").style.width = "0";
 			}
 		</script>
          <!-- Froala Editor CSS -->
@@ -89,11 +87,35 @@
 					<!-- NEXT P0 --><!-- fix responsive </h1-->
 					<!-- NEXT P3 --><!-- fadd share icon </h1-->
 				<li class="fab icon">
-					<a href="javascript:void(0);" onclick="myFunction()">
+					<a href="javascript:void(0);" onclick="openNav()">
 						<i class="fa fa-bars"></i>
 					</a>
 				</li>
 			</ul>
+
+			<div id="mySidenav" class="sidenav bg-dark text-center">
+			  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			  <a class="navbar-brand" href="#page-top" onclick="closeNav()"><img src="images/logo_circled.svg" alt="logo" /></a>
+			  <ul style="align-items: center;">
+				<li class="nav-item">
+					<a class="nav-link page-scroll" href="#section-about" onclick="closeNav()">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link page-scroll" href="#Works" onclick="closeNav()">Works</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link page-scroll" href="#section-samples" onclick="closeNav()">Samples</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link page-scroll" href="#section-production" onclick="closeNav()">Production</a>
+				</li>
+				<!--li  class="nav-item">
+					<a class="nav-link page-scroll" href="#Blog" onclick="closeNav()">Blog</a>
+				</li-->
+				<li class="nav-item">
+					<a class="nav-link page-scroll" href="#section-contact" onclick="closeNav()">Contact</a>
+				</li>
+			</div>
 		</nav>
 
 		<main>
