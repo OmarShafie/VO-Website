@@ -11,5 +11,4 @@ short bio
 picture
 mic
 
-http://www.bedaya.qa
-https://www.suwaidan.com/
+https://www.w3schools.com/w3css/tryw3css_templates_dark_portfolio.htm
